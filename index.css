@@ -1,0 +1,41 @@
+#container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.button__number {
+    width: 66px;
+}
+
+#output {
+    background-color: black;
+    color: white;
+    width: 300px;
+    text-align: right;
+}
+
+#container__operations {
+    width: 300px;
+    display: flex;
+    background-color: grey;
+}
+
+#container__numbers {
+    width: 200px;
+}
+
+#7to9,
+#4to6,
+#1to3,
+#zero {
+    display: flex;
+}
+
+#container__arithmetic button {
+    background-color: orange;
+    width: 100px;
+}
+
+#cancel>button {
+    width: 200px;
+}
