@@ -8,20 +8,31 @@
 }
 
 #output {
-    background-color: black;
-    color: white;
-    width: 300px;
+    background-color: #d1c9c9;
+    color: black;
+    width: 304px;
     text-align: right;
+    font-family: sans-serif;
+    padding: 5px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
 }
 
 #container__operations {
     width: 300px;
     display: flex;
-    background-color: grey;
+    background-color: white;
+    padding: 5px;
+    border-style: solid;
+    border-color: #d1c9c9;
+    position: absolute;
+    top: 35%;
+    left: 38%;
 }
 
 #container__numbers {
-    width: 200px;
+    width: 500px;
 }
 
 #7to9,
@@ -32,10 +43,23 @@
 }
 
 #container__arithmetic button {
-    background-color: orange;
+    background-color: #588ffc;
     width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 #cancel>button {
     width: 200px;
+}
+
+button {
+    background-color: #d1c9c9;
+    border-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
 }
