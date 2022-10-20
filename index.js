@@ -7,18 +7,19 @@ let calculation = ("")
 btn.forEach(function (btn) {
     //detect the click
     btn.addEventListener('click', (e) => {
+        let userInput = e.target.textContent 
         //calcul the result
-        if (e.target.textContent === "="){
+        if (userInput === "="){
             document.getElementById("output").innerHTML = eval(calculation)
             calculation = ("")
         //reset the display
-        }else if (e.target.textContent === "AC"){
+        } else if (userInput === "AC"){
             calculation = ("")
             document.getElementById("output").innerHTML = "0"
         //display calculation
         }else{
             //add the clicked element to calculation
-            calculation = calculation + e.target.textContent;
+            calculation = calculation + userInput;
             document.getElementById("output").innerHTML = calculation
         }
     });
